@@ -18,7 +18,7 @@ class Solution {
           int col = q.front().second; 
           q.pop(); 
           
-          // traverse in the neighbours and mark them if its a land 
+          // traverse in the neighbours and mark them if its a land (8 directions)
           for(int delrow = -1; delrow<=1;delrow++) {
               for(int delcol = -1; delcol <= 1; delcol++) {
                   int nrow = row + delrow; 
